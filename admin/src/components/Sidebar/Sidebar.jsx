@@ -12,7 +12,7 @@ export const Sidebar = () => {
           className={({ isActive }) =>
             `flex items-center gap-3 px-4 py-3 rounded-md cursor-pointer transition-all duration-300 ${
               isActive
-                ? "border-l-4 border-tomato text-tomato font-semibold shadow-sm bg-gray-100"
+                ? "border-l-4 border-tomato text-tomato font-semibold shadow-sm bg-red-100"
                 : "text-gray-700 hover:text-tomato hover:bg-gray-50 hover:border-l-4 hover:border-gray-300"
             }`
           }
@@ -27,7 +27,7 @@ export const Sidebar = () => {
           className={({ isActive }) =>
             `flex items-center gap-3 px-4 py-3 rounded-md cursor-pointer transition-all duration-300 ${
               isActive
-                ? "border-l-4 border-tomato text-tomato font-semibold shadow-sm bg-gray-100"
+                ? "border-l-4 border-tomato text-tomato font-semibold shadow-sm bg-red-100"
                 : "text-gray-700 hover:text-tomato hover:bg-gray-50 hover:border-l-4 hover:border-gray-300"
             }`
           }
@@ -42,7 +42,7 @@ export const Sidebar = () => {
           className={({ isActive }) =>
             `flex items-center gap-3 px-4 py-3 rounded-md cursor-pointer transition-all duration-300 ${
               isActive
-                ? "border-l-4 border-tomato text-tomato font-semibold shadow-sm bg-gray-100"
+                ? "border-l-4 border-tomato text-tomato font-semibold shadow-sm bg-red-100"
                 : "text-gray-700 hover:text-tomato hover:bg-gray-50 hover:border-l-4 hover:border-gray-300"
             }`
           }
